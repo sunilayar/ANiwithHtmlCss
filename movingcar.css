@@ -104,11 +104,11 @@ h1{
 
 
  .back-wheel{
-            left: -140px;
+            left: -142px;
             position: absolute;
  }
  .front-wheel{
-            left: 103px;
+            left: 105px;
             position: absolute;
  }
 
@@ -116,6 +116,6 @@ h1{
 
 @keyframes wheel {
          100%{
-             transform:rotate(-36000deg);
+             transform:rotate(-360deg);
          }
 }
