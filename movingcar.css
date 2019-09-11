@@ -31,12 +31,12 @@ h1{
   right: 0;
   z-index: 1;
   background-repeat: repeat-x;
-  animation: highway 2s linear infinite;
+  animation: highway 5s linear infinite;
 
 }
 @keyframes highway {
   100%{
-    transform: translateX(-3400px);
+    transform: translateX(-1400px);
   }
 
 }
@@ -51,11 +51,11 @@ h1{
          display: block;
          z-index: 1;
          background-repeat: repeat-x;
-         animation: city 12s linear infinite;
+         animation: city 15s linear infinite;
   }
   @keyframes city {
                  100%{
-                   transform: translateX(-3400px);
+                   transform: translateX(-1400px);
                  }
   }
 
