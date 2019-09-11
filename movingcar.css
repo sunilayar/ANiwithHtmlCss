@@ -31,7 +31,7 @@ h1{
   right: 0;
   z-index: 1;
   background-repeat: repeat-x;
-  animation: highway 5s linear infinite;
+  animation: highway 3s linear infinite;
 
 }
 @keyframes highway {
@@ -116,6 +116,6 @@ h1{
 
 @keyframes wheel {
          100%{
-             transform:rotate(-360deg);
+             transform:rotate(-3600deg);
          }
 }
