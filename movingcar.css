@@ -31,7 +31,7 @@ h1{
   right: 0;
   z-index: 1;
   background-repeat: repeat-x;
-  animation: highway 3s linear infinite;
+  animation: highway 10s linear infinite;
 
 }
 @keyframes highway {
@@ -51,7 +51,7 @@ h1{
          display: block;
          z-index: 1;
          background-repeat: repeat-x;
-         animation: city 15s linear infinite;
+         animation: city 18s linear infinite;
   }
   @keyframes city {
                  100%{
